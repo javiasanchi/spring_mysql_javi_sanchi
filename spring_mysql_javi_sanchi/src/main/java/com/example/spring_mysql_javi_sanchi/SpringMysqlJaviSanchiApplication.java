@@ -1,5 +1,6 @@
 package com.example.spring_mysql_javi_sanchi;
 
+import com.example.spring_mysql_javi_sanchi.repositories.BookRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
