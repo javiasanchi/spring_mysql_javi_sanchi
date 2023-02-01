@@ -8,6 +8,11 @@ public class SpringMysqlJaviSanchiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringMysqlJaviSanchiApplication.class, args);
+
+		// para crear repositorios se encarga Spring
+
+		BookRepository bookRepository = spring.getBean(BookRepository.class);
+
 	}
 
 }
